@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+	padding: 1rem;
+}
+.app{
+	margin: 0 auto;
+}
+
+.app .title{
+	margin-bottom: 25px;
+	font-size: 36px;
+}
+
+.app .empty-text{
+	font-size: 20px;
+}
+
+.app ul{
+	padding: 0px;
+}
+
+.app ul li{
+	list-style-type: none;
+	background-color: #efefef;
+	padding: 10px;
+	text-align: center;
+	margin: 5px 0;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	font-family: 'Open Sans';
+	text-transform: capitalize;
+}
+
+.app ul li .remove-icon{
+	float: right;
+	font-size: 15px;
+	cursor: pointer;
+	padding: 5px;
+	color: #7295fa;
+}
+
+.app ul li .remove-icon:hover{
+	color: #6382db;
+}
+
+.app .input-list{
+	margin-top: 30px;
+}
+
+.app .input-list .col-8{
+	padding-right: 3px;
+}
+
+.app .input-list .col-4{
+	padding-left: 3px;
+}
+
+.app button{
+	cursor: pointer;
+	width: 100%;
+	background-color: #7295fa;
+	color: #fff;
+}
+
+.app button:hover{
+	background-color: #6382db; 
+}
